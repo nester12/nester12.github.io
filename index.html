@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Nester Wasswa Kigozi — Computer Science student at the University of Surrey. Projects, experience and skills.">
+<meta name="theme-color" content="#0b1020">
+<title>Nester Kigozi | Computer Science Portfolio</title>
+<style>
+:root{--bg:#090e1b;--surface:#121b2d;--line:#29344a;--text:#f0f5ff;--muted:#a8b7ce;--accent:#8ee4c0;--blue:#8cb7ff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 system-ui,-apple-system,Segoe UI,sans-serif}
+a{color:inherit;text-decoration:none}a:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+.container{width:min(1100px,calc(100% - 40px));margin:auto}
+header{position:sticky;top:0;background:#090e1bea;backdrop-filter:blur(14px);border-bottom:1px solid var(--line);z-index:10}
+nav{display:flex;justify-content:space-between;align-items:center;min-height:74px;gap:16px}.logo{font-size:1.2rem;font-weight:800;letter-spacing:-.04em}.logo span{color:var(--accent)}
+.links{display:flex;gap:24px;flex-wrap:wrap;font-size:.92rem;color:var(--muted)}.links a:hover,.social a:hover{color:var(--accent)}
+.hero{padding:110px 0 100px;display:grid;grid-template-columns:1.5fr .8fr;align-items:center;gap:50px}
+.eyebrow{font-size:.82rem;text-transform:uppercase;letter-spacing:.2em;color:var(--accent);font-weight:750}
+h1{font-size:clamp(3.2rem,7vw,6rem);line-height:1.06;letter-spacing:-.065em;margin:15px 0 22px}
+h1 span{color:var(--accent)}h2{font-size:clamp(2rem,4vw,2.8rem);letter-spacing:-.04em;line-height:1.2;margin:0 0 12px}
+p{color:var(--muted);margin:0 0 20px}.intro{font-size:1.14rem;max-width:660px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+.btn{display:inline-flex;align-items:center;justify-content:center;border-radius:10px;padding:12px 19px;font-weight:750;border:1px solid var(--line);transition:transform .15s}
+.btn:hover{transform:translateY(-2px)}.primary{background:var(--accent);color:#08121a;border-color:var(--accent)}.secondary{background:var(--surface)}
+.orb{border:1px solid #456078;background:radial-gradient(circle at 35% 30%,#234b5a,#131f35 55%,#101729);aspect-ratio:1;border-radius:32px;display:grid;place-items:center;box-shadow:0 30px 90px #0006;transform:rotate(4deg)}
+.orb div{font-size:clamp(4rem,9vw,8rem);font-weight:900;letter-spacing:-.09em;color:var(--accent);transform:rotate(-4deg)}
+section{padding:72px 0;scroll-margin-top:76px}.section-lead{max-width:650px;margin-bottom:30px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.card{border:1px solid var(--line);background:linear-gradient(155deg,#172239,#101827);border-radius:17px;padding:26px}
+.card h3{margin:8px 0 10px;font-size:1.35rem;line-height:1.3}.card p{margin-bottom:16px}
+.tags{display:flex;gap:7px;flex-wrap:wrap}.tag{font-size:.77rem;color:#c8d8f0;border:1px solid #36445e;background:#202d42;border-radius:99px;padding:4px 10px}
+.card-top{font-size:.78rem;color:var(--accent);font-weight:800;text-transform:uppercase;letter-spacing:.1em}
+.note{font-size:.86rem;color:var(--muted)}.timeline{display:grid;gap:16px}
+.timeline .card{display:grid;grid-template-columns:230px 1fr;gap:20px}.date{color:var(--accent);font-weight:700}
+.skills{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.skills h3{margin:0 0 14px}.skills p{margin:0}.contact{background:#111b2b;border:1px solid var(--line);border-radius:20px;padding:42px}
+.social{display:flex;gap:18px;flex-wrap:wrap;color:var(--blue);font-weight:700}
+footer{border-top:1px solid var(--line);padding:25px 0;color:var(--muted);font-size:.85rem}
+@media(max-width:780px){.hero{grid-template-columns:1fr;padding:70px 0}.orb{display:none}.grid,.skills{grid-template-columns:1fr}.timeline .card{grid-template-columns:1fr;gap:0}.links{gap:11px;font-size:.8rem}nav{align-items:flex-start;padding:15px 0;flex-direction:column}.contact{padding:26px}section{padding:55px 0}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
+</style>
+</head>
+<body>
+<header><nav class="container" aria-label="Main navigation"><a class="logo" href="#home">NK<span>.</span></a><div class="links"><a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#contact">Contact</a></div></nav></header>
+<main>
+<div class="container"><section class="hero" id="home"><div><div class="eyebrow">Computer Science Student · University of Surrey</div><h1>Hi, I'm Nester<span>.</span></h1><p class="intro">I build, experiment and solve problems — from developing games to troubleshooting real computers. I'm currently exploring software engineering, AI and technology opportunities.</p><p>Open to 2027 spring insight programmes and summer internships.</p><div class="actions"><a class="btn primary" href="#projects">Explore my work ↗</a><a class="btn secondary" href="#contact">Get in touch</a></div></div><div class="orb" aria-hidden="true"><div>&lt;NK/&gt;</div></div></section></div>
+<section id="about"><div class="container"><div class="eyebrow">01 / About</div><h2>Curious about how things work.</h2><p class="section-lead">I'm a first-year BSc (Hons) Computer Science with Professional Training student at the University of Surrey (2026–2030 expected). I enjoy combining programming with hands-on technical problem-solving. Before university, I worked with computer hardware and helped coordinate operations at IT Expo.</p></div></section>
+<section id="projects"><div class="container"><div class="eyebrow">02 / Selected work</div><h2>Projects</h2><p class="section-lead">A selection of work that demonstrates my programming, design and problem-solving experience.</p><div class="grid">
+<article class="card"><div class="card-top">Software development · A-level project</div><h3>Death Run — 2D Platform Game</h3><p>Designed and developed a playable platform game using Godot and GDScript. Implemented player movement, traps, enemies and a health system, using iterative testing and debugging to improve gameplay.</p><div class="tags"><span class="tag">Godot</span><span class="tag">GDScript</span><span class="tag">Game logic</span><span class="tag">Testing</span></div><p class="note" style="margin-top:17px">Project assessment: 60/70 (86%). Add a GitHub repository or gameplay demo here when available.</p></article>
+<article class="card"><div class="card-top">Engineering design · TEDI-London</div><h3>Repair Hub-in-a-Box</h3><p>Worked on a portable repair-station concept intended to make everyday repairs more accessible and reduce waste. Considered tool storage, portability, usability and sustainability.</p><div class="tags"><span class="tag">Product design</span><span class="tag">Sustainability</span><span class="tag">Teamwork</span></div></article>
+<article class="card"><div class="card-top">Design thinking · TEDI-London</div><h3>Portable Fabric Sorter</h3><p>Explored a portable fabric-sorting concept with practical storage and mobility considerations, balancing usability and design constraints.</p><div class="tags"><span class="tag">Prototyping</span><span class="tag">User needs</span><span class="tag">Problem-solving</span></div></article>
+<article class="card"><div class="card-top">Automation · Python · GitHub Actions</div><h3>Short-Video Growth Pipeline</h3><p>Developed a zero-cost workflow that discovers trending topics, ranks them, generates scripts with AI, sources footage, produces narrated vertical videos and validates outputs before export. The current workflow exports publish-ready files; direct TikTok posting is not enabled.</p><div class="tags"><span class="tag">Python</span><span class="tag">Gemini API</span><span class="tag">FFmpeg</span><span class="tag">GitHub Actions</span></div><p style="margin-top:18px"><a href="https://github.com/nester12/videos-pipline" target="_blank" rel="noopener noreferrer" style="color:var(--accent);font-weight:750">View source code ↗</a></p></article>
+<article class="card"><div class="card-top">Automation · Content workflows</div><h3>TikTok Pipeline</h3><p>An earlier automation repository focused on TikTok content workflows. This project reflects experimentation with video-generation and publishing systems; implementation details and current reliability are being documented.</p><div class="tags"><span class="tag">Automation</span><span class="tag">Workflow development</span></div><p style="margin-top:18px"><a href="https://github.com/nester12/tiktok-pipeline-" target="_blank" rel="noopener noreferrer" style="color:var(--accent);font-weight:750">View repository ↗</a></p></article>
+<article class="card"><div class="card-top">Web development</div><h3>Feedback Widget</h3><p>A simple embeddable feedback widget with a dashboard, built as a web-development project.</p><div class="tags"><span class="tag">Web development</span><span class="tag">UI</span></div><p style="margin-top:18px"><a href="https://github.com/nester12/feedback-widget" target="_blank" rel="noopener noreferrer" style="color:var(--accent);font-weight:750">View repository ↗</a></p></article>
+</div></div></section>
+<section id="skills"><div class="container"><div class="eyebrow">03 / Toolkit</div><h2>Skills</h2><div class="skills"><div class="card"><h3>Programming</h3><p>Python (working knowledge), GDScript (project experience), basic HTML, CSS, JavaScript and SQL.</p></div><div class="card"><h3>Tools & systems</h3><p>Godot, Git, GitHub, Windows setup, computer hardware testing and component upgrades.</p></div><div class="card"><h3>How I work</h3><p>Debugging, iterative testing, communication, teamwork, organisation and practical problem-solving.</p></div></div></div></section>
+<section id="experience"><div class="container"><div class="eyebrow">04 / Background</div><h2>Experience & education</h2><div class="timeline">
+<div class="card"><div class="date">2026–2030 (expected)</div><div><h3>University of Surrey</h3><p>BSc (Hons) Computer Science with Professional Training.</p></div></div>
+<div class="card"><div class="date">2024 – July 2026</div><div><h3>Assistant Manager · IT Expo</h3><p>Tested and refurbished computers, installed Windows, upgraded RAM and storage, identified basic faults, and helped coordinate suppliers, colleagues and shipping preparation.</p></div></div>
+<div class="card"><div class="date">2025</div><div><h3>Café Volunteer · St Mary's Church, Loughton</h3><p>Supported customers and worked with a team during a one-week placement.</p></div></div>
+</div></div></section>
+<section id="contact"><div class="container"><div class="contact"><div class="eyebrow">05 / Contact</div><h2>Let's connect.</h2><p>Interested in discussing an internship, insight programme or technical project? Reach me through email or LinkedIn.</p><div class="actions"><a class="btn primary" href="mailto:waswanester126@gmail.com">Email me ↗</a></div><div class="social"><a href="https://github.com/nester12" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/nester-k-a7720b341/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></div></div></div></section>
+</main><footer><div class="container">© <span id="year">2026</span> Nester Wasswa Kigozi · Built with HTML & CSS</div></footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body></html>
